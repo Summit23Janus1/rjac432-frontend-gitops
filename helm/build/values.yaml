@@ -1,0 +1,15 @@
+app:
+  name: rjac432-poi-map-app
+  namespace: rjac432
+  cluster: .apps.summit23rock.n26o.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus1/rjac432-frontend
+  org: Summit23Janus1
+  name: rjac432-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: rjac432/poi-map-app
+  tag: latest
